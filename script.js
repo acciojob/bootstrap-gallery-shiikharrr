@@ -5,4 +5,3 @@ images.forEach((image) => {
     image.classList.add("active");
   });
 });
-});
