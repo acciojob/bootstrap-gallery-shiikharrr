@@ -1,8 +1,8 @@
-const galleryImages = document.querySelectorAll(".gallery-img");
-const lightbox = document.querySelector(".lightbox");
+const images = document.querySelectorAll(".lightbox");
 
-galleryImages.forEach((img) => {
-  img.addEventListener("click", () => {
-    lightbox.style.backgroundImage = `url(${img.src})`;
+images.forEach((image) => {
+  image.addEventListener("click", () => {
+    image.classList.add("active");
   });
+});
 });
